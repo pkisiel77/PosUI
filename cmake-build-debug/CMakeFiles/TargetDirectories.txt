@@ -1,0 +1,3 @@
+/Users/pksm1/CLionProjects/PosUI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/pksm1/CLionProjects/PosUI/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/pksm1/CLionProjects/PosUI/cmake-build-debug/CMakeFiles/PosUI.dir
