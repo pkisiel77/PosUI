@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/pksm1/CLionProjects/PosUI/TUI/CursesTUI.cpp">
+			<Option target="PosUI"/>
+		</Unit>
+		<Unit filename="/Users/pksm1/CLionProjects/PosUI/TUI/CursesTUI.h">
+			<Option target="PosUI"/>
+		</Unit>
 		<Unit filename="/Users/pksm1/CLionProjects/PosUI/TUI/WindowsTUI.cpp">
 			<Option target="PosUI"/>
 		</Unit>
 		<Unit filename="/Users/pksm1/CLionProjects/PosUI/TUI/WindowsTUI.h">
-			<Option target="PosUI"/>
-		</Unit>
-		<Unit filename="/Users/pksm1/CLionProjects/PosUI/TUI/tui.cpp">
-			<Option target="PosUI"/>
-		</Unit>
-		<Unit filename="/Users/pksm1/CLionProjects/PosUI/TUI/tui.h">
 			<Option target="PosUI"/>
 		</Unit>
 		<Unit filename="/Users/pksm1/CLionProjects/PosUI/main.cpp">

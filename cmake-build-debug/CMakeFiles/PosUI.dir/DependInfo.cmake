@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/pksm1/CLionProjects/PosUI/TUI/CursesTUI.cpp" "/Users/pksm1/CLionProjects/PosUI/cmake-build-debug/CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.o"
   "/Users/pksm1/CLionProjects/PosUI/TUI/WindowsTUI.cpp" "/Users/pksm1/CLionProjects/PosUI/cmake-build-debug/CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.o"
-  "/Users/pksm1/CLionProjects/PosUI/TUI/tui.cpp" "/Users/pksm1/CLionProjects/PosUI/cmake-build-debug/CMakeFiles/PosUI.dir/TUI/tui.cpp.o"
   "/Users/pksm1/CLionProjects/PosUI/main.cpp" "/Users/pksm1/CLionProjects/PosUI/cmake-build-debug/CMakeFiles/PosUI.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

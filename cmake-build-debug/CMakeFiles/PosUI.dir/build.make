@@ -79,18 +79,18 @@ CMakeFiles/PosUI.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PosUI.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pksm1/CLionProjects/PosUI/main.cpp -o CMakeFiles/PosUI.dir/main.cpp.s
 
-CMakeFiles/PosUI.dir/TUI/tui.cpp.o: CMakeFiles/PosUI.dir/flags.make
-CMakeFiles/PosUI.dir/TUI/tui.cpp.o: ../TUI/tui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pksm1/CLionProjects/PosUI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PosUI.dir/TUI/tui.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PosUI.dir/TUI/tui.cpp.o -c /Users/pksm1/CLionProjects/PosUI/TUI/tui.cpp
+CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.o: CMakeFiles/PosUI.dir/flags.make
+CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.o: ../TUI/CursesTUI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pksm1/CLionProjects/PosUI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.o -c /Users/pksm1/CLionProjects/PosUI/TUI/CursesTUI.cpp
 
-CMakeFiles/PosUI.dir/TUI/tui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PosUI.dir/TUI/tui.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pksm1/CLionProjects/PosUI/TUI/tui.cpp > CMakeFiles/PosUI.dir/TUI/tui.cpp.i
+CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pksm1/CLionProjects/PosUI/TUI/CursesTUI.cpp > CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.i
 
-CMakeFiles/PosUI.dir/TUI/tui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PosUI.dir/TUI/tui.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pksm1/CLionProjects/PosUI/TUI/tui.cpp -o CMakeFiles/PosUI.dir/TUI/tui.cpp.s
+CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pksm1/CLionProjects/PosUI/TUI/CursesTUI.cpp -o CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.s
 
 CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.o: CMakeFiles/PosUI.dir/flags.make
 CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.o: ../TUI/WindowsTUI.cpp
@@ -108,14 +108,14 @@ CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.s: cmake_force
 # Object files for target PosUI
 PosUI_OBJECTS = \
 "CMakeFiles/PosUI.dir/main.cpp.o" \
-"CMakeFiles/PosUI.dir/TUI/tui.cpp.o" \
+"CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.o" \
 "CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.o"
 
 # External object files for target PosUI
 PosUI_EXTERNAL_OBJECTS =
 
 PosUI: CMakeFiles/PosUI.dir/main.cpp.o
-PosUI: CMakeFiles/PosUI.dir/TUI/tui.cpp.o
+PosUI: CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.o
 PosUI: CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.o
 PosUI: CMakeFiles/PosUI.dir/build.make
 PosUI: CMakeFiles/PosUI.dir/link.txt

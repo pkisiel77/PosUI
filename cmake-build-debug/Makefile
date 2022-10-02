@@ -129,6 +129,30 @@ PosUI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/build
 .PHONY : PosUI/fast
 
+TUI/CursesTUI.o: TUI/CursesTUI.cpp.o
+.PHONY : TUI/CursesTUI.o
+
+# target to build an object file
+TUI/CursesTUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.o
+.PHONY : TUI/CursesTUI.cpp.o
+
+TUI/CursesTUI.i: TUI/CursesTUI.cpp.i
+.PHONY : TUI/CursesTUI.i
+
+# target to preprocess a source file
+TUI/CursesTUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.i
+.PHONY : TUI/CursesTUI.cpp.i
+
+TUI/CursesTUI.s: TUI/CursesTUI.cpp.s
+.PHONY : TUI/CursesTUI.s
+
+# target to generate assembly for a file
+TUI/CursesTUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/CursesTUI.cpp.s
+.PHONY : TUI/CursesTUI.cpp.s
+
 TUI/WindowsTUI.o: TUI/WindowsTUI.cpp.o
 .PHONY : TUI/WindowsTUI.o
 
@@ -152,30 +176,6 @@ TUI/WindowsTUI.s: TUI/WindowsTUI.cpp.s
 TUI/WindowsTUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.s
 .PHONY : TUI/WindowsTUI.cpp.s
-
-TUI/tui.o: TUI/tui.cpp.o
-.PHONY : TUI/tui.o
-
-# target to build an object file
-TUI/tui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/tui.cpp.o
-.PHONY : TUI/tui.cpp.o
-
-TUI/tui.i: TUI/tui.cpp.i
-.PHONY : TUI/tui.i
-
-# target to preprocess a source file
-TUI/tui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/tui.cpp.i
-.PHONY : TUI/tui.cpp.i
-
-TUI/tui.s: TUI/tui.cpp.s
-.PHONY : TUI/tui.s
-
-# target to generate assembly for a file
-TUI/tui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/tui.cpp.s
-.PHONY : TUI/tui.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -210,12 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PosUI"
+	@echo "... TUI/CursesTUI.o"
+	@echo "... TUI/CursesTUI.i"
+	@echo "... TUI/CursesTUI.s"
 	@echo "... TUI/WindowsTUI.o"
 	@echo "... TUI/WindowsTUI.i"
 	@echo "... TUI/WindowsTUI.s"
-	@echo "... TUI/tui.o"
-	@echo "... TUI/tui.i"
-	@echo "... TUI/tui.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
