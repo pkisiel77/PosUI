@@ -129,6 +129,30 @@ PosUI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/build
 .PHONY : PosUI/fast
 
+TUI/WindowsTUI.o: TUI/WindowsTUI.cpp.o
+.PHONY : TUI/WindowsTUI.o
+
+# target to build an object file
+TUI/WindowsTUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.o
+.PHONY : TUI/WindowsTUI.cpp.o
+
+TUI/WindowsTUI.i: TUI/WindowsTUI.cpp.i
+.PHONY : TUI/WindowsTUI.i
+
+# target to preprocess a source file
+TUI/WindowsTUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.i
+.PHONY : TUI/WindowsTUI.cpp.i
+
+TUI/WindowsTUI.s: TUI/WindowsTUI.cpp.s
+.PHONY : TUI/WindowsTUI.s
+
+# target to generate assembly for a file
+TUI/WindowsTUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PosUI.dir/build.make CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.s
+.PHONY : TUI/WindowsTUI.cpp.s
+
 TUI/tui.o: TUI/tui.cpp.o
 .PHONY : TUI/tui.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PosUI"
+	@echo "... TUI/WindowsTUI.o"
+	@echo "... TUI/WindowsTUI.i"
+	@echo "... TUI/WindowsTUI.s"
 	@echo "... TUI/tui.o"
 	@echo "... TUI/tui.i"
 	@echo "... TUI/tui.s"

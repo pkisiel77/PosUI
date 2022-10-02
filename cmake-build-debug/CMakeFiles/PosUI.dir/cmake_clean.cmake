@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PosUI.dir/TUI/WindowsTUI.cpp.o"
   "CMakeFiles/PosUI.dir/TUI/tui.cpp.o"
   "CMakeFiles/PosUI.dir/main.cpp.o"
   "PosUI"
